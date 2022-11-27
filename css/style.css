@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background: #cd5b3b;
+    height: 150px;
+    width: 100%;
+    padding: 0 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header h1{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 75px;
+}
+.head-section{
+    background: #78625c;
+    height: 55px;
+    color: whitesmoke;
+}
+.head-section ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.head-section li{
+    margin-top: 20px;
+}
+.body{
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    /* height: 800px; */
+}
+.left{
+    /* border:2px solid blue; */
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    vertical-align: top;
+    background: white;
+    /* height: 700px; */
+    /* height: 100%; */
+    /* height: 50px; */
+}
+.space{
+    height: 650px;
+}
+.left h1{
+    color: #cd5b3b;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    padding-right: 100px;
+    top: 0;
+
+}
+.body .right{
+    /* border:2px solid green; */
+    width: 70%;
+    /* height: 50px; */
+}
+.category{
+    color: rgb(90, 86, 86);
+}
+.category h3{
+    font-size: 25px;
+    margin: 10px 0;
+}
+.category li{
+    margin-top: 20px;
+    list-style: none;
+}
+.category input{
+    /* background:  #ebe8e4; */
+    border: 1px solid  rgb(90, 86, 86) ;
+    padding: 5px;
+    margin: 20px 10px 10px 0;
+    box-shadow: 0px 4px 4px ;
+    display: block;
+}
+.category button{
+    height: 30px;
+    background: #cd5b3b;
+    border-radius: 5px;
+    border-color: #cd5b3b;
+    width:150px
+
+}
+.right{
+    background: #EEEEEE;
+}
+.piks{
+    /* height: 100px; */
+    padding: 30px 20px;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.right-pic{
+    width: 300px;
+    /* height: 400px; */
+    /* border: 2px solid green; */
+    background: white;
+    box-shadow: 1px 0px 4px 1px ;
+    /* margin-bottom: 20px; */
+    height: 380px;
+    /* margin-right: 20px; */
+}
+.right-pic img{
+    width: 100%;
+    height: 200px;
+    /* border-radius: 1%; */
+}
+.right-pic p{
+    padding: 20px;
+    color: rgb(90, 86, 86);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.side{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid green; */
+    margin-bottom: 40px;
+    /* padding: 5px; */
+    width: 700px;
+}
+.show-more{
+    background: #cd5b3b;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 60px;
+    font-family: cursive;
+    border-radius: 5px;
+}
+footer{
+    background: #cd5b3b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    background: #cd5b3b;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+.footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    width: 30%;
+}
+.footer ul a{
+    color: white;
+    text-decoration: none;
+}
+.footer i{
+    font-size: 25px;
+    width: 50px;
+}
+.me{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.me p a{
+    color: white;
+    text-decoration: none;
+}
+.me .e{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
